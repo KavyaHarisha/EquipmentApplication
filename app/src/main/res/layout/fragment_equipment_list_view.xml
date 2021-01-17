@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ConstraintMatchMatch"
+    android:background="@color/white"
+    tools:context=".presentation.ui.company.CompanyListViewFragment">
+
+    <ExpandableListView
+        android:id="@+id/equipment_expendableList"
+        style="@style/ConstraintMatchWrap"
+        android:divider="@color/color_grey"
+        android:childDivider="@android:color/transparent"
+        android:indicatorRight="@dimen/margin_20"
+        android:scrollbars="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:groupIndicator="@drawable/expandle_indicator"
+        android:dividerHeight="@dimen/zero_05dp" />
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/ConstraintWrapWrap"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout >
+</layout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EquipmentApplication</string>
+    <string name="item_vin">Vin %s</string>
+    <string name="item_year">Year %d</string>
+    <string name="item_make">Make %s</string>
+    <string name="item_value">Value %.2f</string>
+    <string name="item_length">Length %.2f ft</string>
+    <string name="choose_equipment_title">Choose Equipment</string>
+</resources>
